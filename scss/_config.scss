@@ -1,0 +1,66 @@
+/* set variables, partial file begins with _ */
+$primary-color: #444;
+$secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url("../img/jonas-leupe-cyH4HcZJxGc-unsplash.jpg");
+$background-opacity: 0.7;
+
+/* set functions */
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+
+      // in place of an overlay between background img and body content,
+      // psudo element (not actually in HTML)
+      // after, insert content before or after bg-img
+      &:after {
+        content: ""; //  here empty string, just the overlay.
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; // overlay behind 'body'
+        background: rgba($primary-color, $background-opacity);
+      }
+    }
+  }
+}
+
+/* Set Text Color */
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+/* Media Query mixins */
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}

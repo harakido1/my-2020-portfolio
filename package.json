@@ -1,0 +1,14 @@
+{
+  "name": "my-2020-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio for John Paul Pageler Jr.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "John Paul Pageler Jr",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
