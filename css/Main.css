@@ -333,7 +333,7 @@ main#home h1 {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job1 job1";
+  grid-template-areas: "bioimage bio bio" "job1 job1 job1";
   grid-template-columns: 1fr;
 }
 
@@ -463,11 +463,14 @@ main#home h1 {
     height: 180px;
   }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job1" "job1";
+    grid-template-areas: "bioimage" "bio" "job1" "job1" "job1";
     grid-template-columns: 1fr;
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .fly {
+    grid-template-areas: "p" "span";
   }
 }
 
