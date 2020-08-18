@@ -145,7 +145,7 @@
 
 .fly-in-text {
   list-style: none;
-  position: absolute;
+  position: relative;
   margin-top: 8vh;
   left: 18.5%;
   top: 9%;
@@ -156,7 +156,7 @@
   display: inline-block;
   font-family: serif;
   color: #eece1a;
-  font-size: 1.9em;
+  font-size: 2em;
   opacity: 1;
   transition: all 3s ease;
 }
@@ -468,9 +468,6 @@ main#home h1 {
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .fly {
-    grid-template-areas: "p" "span";
   }
 }
 
