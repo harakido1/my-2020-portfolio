@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive portfolio for John Paul Pageler Jr.",
   "main": "index.js",
-  "homepage": "https://harakido1.github.io/my-2020-portfolio",
+  "homepage": "https://harakido1.github.io/my-2020-portfolio/dist",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
