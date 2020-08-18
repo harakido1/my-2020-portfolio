@@ -470,7 +470,7 @@ main#home h1 {
     grid-template-columns: repeat(2, 1fr);
   }
   .fly {
-    text-align: center;
+    overflow-wrap: break-word;
   }
 }
 
