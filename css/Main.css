@@ -475,8 +475,7 @@ main#home h1 {
   main#home h1 {
     margin-top: 10vh;
   }
-  .fly-in-text li {
-    max-width: 200px;
+  .fly-in-text.hidden li:nth-child(7) {
     word-wrap: break-word;
   }
   .projects {
