@@ -189,6 +189,14 @@
   transform: translateX(-40px) translateY(40px);
 }
 
+.fly-in-text.hidden li:nth-child(7) {
+  transform: translateX(-40px) translateY(40px);
+}
+
+.fly-in-text.hidden li:nth-child(8) {
+  transform: translateX(-40px) translateY(40px);
+}
+
 .fly-in-text.hidden li:nth-child(9) {
   transform: translateX(-40px) translateY(-40px);
 }
