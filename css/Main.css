@@ -146,9 +146,9 @@
 .fly-in-text {
   list-style: none;
   position: relative;
-  margin-top: 8vh;
-  left: 18.5%;
-  top: 7%;
+  margin-top: 4vh;
+  left: 20%;
+  top: 9%;
   transform: translateX(-20%) translateY(-10%);
 }
 
@@ -156,7 +156,7 @@
   display: inline-block;
   font-family: serif;
   color: #eece1a;
-  font-size: 2em;
+  font-size: 2.5em;
   opacity: 1;
   transition: all 3s ease;
 }
