@@ -475,7 +475,7 @@ main#home h1 {
   main#home h1 {
     margin-top: 10vh;
   }
-  .fly-in-text {
+  .fly-in-text li:nth-child(7) {
     max-width: 200px;
     word-wrap: break-word;
   }
