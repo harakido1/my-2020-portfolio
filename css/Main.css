@@ -475,9 +475,6 @@ main#home h1 {
   main#home h1 {
     margin-top: 10vh;
   }
-  #li-break {
-    word-wrap: break-word;
-  }
   .projects {
     grid-template-columns: 1fr;
   }
